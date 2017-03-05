@@ -1,0 +1,137 @@
+.editor {
+  height:500px;
+}
+.category {
+  margin-bottom:10px;
+}
+.main-layout {
+  background:#fff;
+  overflow: hidden;
+  padding-bottom:30px;
+  margin-bottom:70px;
+}
+
+.index-top {
+  padding-top:36px;
+}
+
+.article-list, .article-related .title {
+  overflow:hidden;
+  border-bottom:1px solid #e8e8e8;
+}
+
+.article-list h3 {
+  margin-top:15px;
+}
+
+.article-list a {
+  color: #222;
+  display: block;
+  overflow:hidden;
+}
+
+.article-list a:hover {
+  text-decoration: none;
+}
+
+.article-title, .article-info {
+  float:left;
+}
+
+.article-title {
+  width:100%;
+  margin-bottom:0;
+}
+
+.article-thumbnail {
+  float: right;
+  width: 33.3%;
+  max-width: 130px;
+  margin:15px 0;
+  overflow:hidden;
+  position:relative;
+}
+
+.article-thumbnail .thumbnail-holder {
+  float:left;
+  margin-right:2px;
+  width: 100%;
+  background: #c3c3c3;
+}
+
+.article-thumbnail .thumbnail-holder-inner {
+  width: 100%;
+  padding-bottom:60%;
+  height: 0;
+  overflow:hidden;
+}
+
+.thumbnail-holder img {
+  width:100%;
+}
+
+.article-thumbnails .article-title, .article-thumbnails .article-thumbnail {
+  width:100%;
+  float:none;
+}
+
+.article-thumbnails .article-thumbnail {
+  margin-bottom:0;
+  max-width: none;
+}
+
+.article-thumbnails .article-thumbnail .thumbnail-holder {
+  width:32.5%;
+  //max-width:500px;
+}
+
+.article-info {
+  clear:left;
+}
+.article {
+  color: #222;
+}
+
+.article-content {
+  //max-height: 980px;
+  overflow: hidden;
+}
+
+.article-content img {
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:1em auto;
+}
+
+.article-footer {
+  //overflow: hidden;
+}
+
+.article-hits {
+  color:#777;
+}
+
+.article-hits .glyphicon {
+  margin-left:10px;
+}
+
+.article-related .title {
+  margin-bottom:0;
+}
+.author-avatar {
+  padding:30px 0 10px;
+}
+
+.author-avatar img {
+  width:88px;
+  height:88px;
+}
+
+.author-avatar, .author-name {
+  text-align: center;
+}
+
+.article-header {
+  text-align: center;
+}
